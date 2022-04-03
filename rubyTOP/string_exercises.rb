@@ -6,6 +6,7 @@ end
 def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
   "Hello #{string}!"
+  #"Hello " + string + "!"
 end
 
 def substrings(word)
@@ -15,8 +16,8 @@ end
 
 def capitalize(word)
   # capitalize the first letter of the word
-  word[0].upcase + word[1..-1]
-
+  word.capitalize
+  #word[0].upcase + word[1..-1]
 end
 
 def uppercase(string)
